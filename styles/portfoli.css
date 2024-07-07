@@ -43,6 +43,9 @@
     font-size: 18px;
     color:#757575;
 }
+.text-center{
+    text-align: center;
+}
 /* header */
 
 .head-section{
@@ -80,7 +83,11 @@ nav li a{
 /* main styles */
 main{
     max-width: 1140px;
-    margin:0 auto
+    margin:0 auto;
+}
+main section{
+    margin: 130px;
+    margin-bottom: 130px;
 }
 
 /* banner  styles */
@@ -123,7 +130,7 @@ width: 584px;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin: 130px;
+   
 }
 .about-items{
     display: flex;
@@ -135,5 +142,21 @@ width: 584px;
 }
 .item-description{
     font-weight: 600;
-    margin-bottom: 0;
+    margin-bottom: 0; 
+    
+}
+/* skill section styles */
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skills{
+    padding:104px 33px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+.resume-container{
+    display: flex;
 }
